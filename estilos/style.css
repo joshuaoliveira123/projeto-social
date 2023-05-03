@@ -32,3 +32,8 @@ section#telefone{
     background: url('../imagens/frame-iphone.png') center no-repeat fixed;
     background-size: contain;
 }
+
+section#telefone:hover{
+    transition: 0.5s;
+    transform: translate(-50%, -51%);
+}
